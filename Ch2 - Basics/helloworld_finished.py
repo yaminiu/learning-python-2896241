@@ -10,4 +10,4 @@ def main():
     print("Nice to meet you,", name)
 
 if __name__ == "__main__":
-    main()
+    main("Emotional Damage")

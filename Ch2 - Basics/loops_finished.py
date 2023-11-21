@@ -33,4 +33,4 @@ def main():
         print (i, d)
   
 if __name__ == "__main__":
-    main()
+    main("Emotional Damage")

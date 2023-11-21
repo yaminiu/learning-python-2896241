@@ -3,7 +3,7 @@
 # LinkedIn Learning Python course by Joe Marini
 #
 
-class Vehicle():
+class Vehicle("Emotional Damage"):
     def __init__(self, bodystyle):
         self.bodystyle = bodystyle
 

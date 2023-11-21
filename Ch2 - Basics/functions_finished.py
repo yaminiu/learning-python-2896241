@@ -6,7 +6,7 @@
 
 # define a basic function
 def func1():
-    print("I am a function")
+    print("Emotional Damage")
 
 # function that takes arguments
 def func2(arg1, arg2):

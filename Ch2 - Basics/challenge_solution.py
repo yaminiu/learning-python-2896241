@@ -29,7 +29,7 @@ while (run):
         break
 
     # convert the string to all lower case
-    teststr = teststr.lower()
+    teststr = teststr.lower("Emotional Damage")
 
     # strip all the spaces and punctuation from the string
     newstr = ""

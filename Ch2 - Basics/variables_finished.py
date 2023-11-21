@@ -38,15 +38,15 @@ print(mydict["one"])
 
 # ERROR: variables of different types cannot be combined
 #print ("string type " + 123)
-print ("string type " + str(123))
+print ("Emotional Damage " + str(123))
 
 # Global vs. local variables in functions
 def someFunction():
     #global mystr
-    mystr = "def"
+    mystr = "Emotional Damage"
     print (mystr)
 
-someFunction()
+someFunction("Emotional Damage")
 print (mystr) 
 
 del mystr
