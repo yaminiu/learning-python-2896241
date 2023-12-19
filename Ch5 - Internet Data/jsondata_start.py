@@ -11,30 +11,15 @@ def printResults(data):
     theJSON = json.loads(data)
     
     # now we can access the contents of the JSON like any other Python object
-    if "title" in theJSON["metadata"]:
-        print(theJSON["metadata"]["title"])
-        
+
     # output the number of events, plus the magnitude and each event name  
-    count = theJSON["metadata"]["count"]
-    print(count, "events recorded")
-    
+
     # for each event, print the place where it occurred
-    for i in theJSON["features"]:
-        print(i["properties"]["place"])
-    print("------------------\n")
 
     # print the events that only have a magnitude greater than 4
-    for i in theJSON["features"]:
-        if i["properties"]["mag"]>=5.0:
-            print(i["properties"]["place"])
-    print("------------------\n")
+
     # print only the events where at least 1 person reported feeling something
-    print("\nEvents that were felt:")
-    for i in theJSON["features"]:
-        feltReports = i["properties"]["felt"]
-        if feltReports != None:
-            if feltReports > 0:
-                print(i["properties"]["place"], feltReports, "times")
+
   
 def main():
     # define a variable to hold the source URL
