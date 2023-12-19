@@ -18,7 +18,7 @@ class MyHTMLParser(HTMLParser):
         if tag == "p":
             paragraphs += 1
 
-        print ("Encountered a start tag:", tag)
+        print("Encountered a start tag:", tag)
         pos = self.getpos() # returns a tuple indication line and character
         print ("\tAt line: ", pos[0], " position ", pos[1])
 
